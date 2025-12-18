@@ -1,0 +1,53 @@
+@font-face {
+font-family: 'TeslaFont';
+src: url('./teslafont/TESLA.ttf') format('truetype');
+}
+
+.box{
+    display: flex;
+    margin:auto;
+    border: 50px;
+    padding:100px solid black;
+    width: fit-content;
+    height:fit-content;
+   align-content: center;
+color: Grey;
+text-decoration: solid;
+text-decoration-thickness: 10px;
+font-family: "TeslaFont";
+   
+
+}
+
+.img{
+    margin:auto;
+    padding: 50px solid black;
+    border:auto;
+    width:fit-content;
+    height: fit-content;
+    
+
+
+
+}
+
+.nav{
+    align-content: center;
+   font-family: fantasy;
+    color:black;
+    text-align: center;
+    content: icon;
+  word-spacing: 10px;
+
+
+}
+
+.BOX{
+  display: flex;
+  margin: auto;
+  border: 10px;
+  padding: 12px;
+  background-image: none;
+  justify-content: center;
+  align-items: center;
+}
