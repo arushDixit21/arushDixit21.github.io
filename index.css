@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #e3e6e6;
+}
+
+
+header {
+  background: #131921;
+  color: white;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #f3a847;
+}
+
+.location {
+  font-size: 12px;
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  min-width: 200px;
+}
+
+.search select {
+  padding: 8px;
+  border: none;
+  background: #f3f3f3;
+}
+
+.search input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+}
+
+.search button {
+  padding: 8px 12px;
+  background: #febd69;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-item {
+  font-size: 13px;
+}
+
+
+.categories {
+  background: #232f3e;
+  color: white;
+  padding: 8px 16px;
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  text-decoration: solid;
+  overflow-x: auto;
+}
+
+
+.hero {
+  background: linear-gradient(to bottom, #cfd8df, #e3e6e6);
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+main {
+  padding: 16px;
+}
+
+.section-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: white;
+  padding: 12px;
+  border-radius: 4px;
+ 
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: fill;
+  margin-bottom: 8px;
+}
+
+.card h3 {
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.price {
+  color: #761a03;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.card button {
+  width: 100%;
+  padding: 6px;
+  background: #ffd814;
+  border: 2px solid #fcd200;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+footer {
+  background: #232f3e;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-top {
+  text-align: center;
+  padding: 10px ;
+  background: #37475a;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+.footer-links h4 {
+  margin-bottom: 8px;
+}
+
+.footer-links div {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
